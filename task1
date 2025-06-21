@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left">
+      <h2>Let's Chat</h2>
+      <p>Whether you have a question, want to start a project or simply want to connect, send me a message in the contact form.</p>
+    </div>
+    
+    <div class="right">
+      <h2>Contact</h2>
+      <span class="required">* Required</span>
+      <form>
+       <br>
+        <input type="text" required placeholder="Name">
+<br> <br>
+      
+        <input type="email" required placeholder="email">
+
+      <br> <br> 
+        <input type="text" placeholder="Company">
+
+        <br> <br>
+        <input type="tel" placeholder="ohone">
+
+      <br> <br>
+        <textarea rows="4" placeholder="message"></textarea>
+
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
