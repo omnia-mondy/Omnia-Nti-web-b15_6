@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pizza Shop</title>
+  <link rel="stylesheet" href="style5.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="icon-book"><i class="fa-solid fa-book-open"></i></div>
+        <div class="icon"><i class="fa-solid fa-user"></i></div>
+        <div class="icon"><i class="fa-solid fa-wallet"></i></div>
+        <div class="icon"><i class="fas fa-cog"></i></div>
+        <div class="icon"><i class="fas fa-envelope"></i></div>
+        <div class="icon"><i class="fa-solid fa-chart-pie"></i></i></div>
+        <div class="icon"><i class="fa-solid fa-message"></i></div>
+     
+    </aside>
+
+    <!-- Main content -->
+    <main class="main-content">
+      <!-- Header -->
+      <header class="header">
+        <div class="welcome">
+          <p>Hello John</p>
+          <h2>Welcome Back</h2>
+        </div>
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search"  />
+        
+        </div>
+       
+      </header>
+
+      <!-- Offer Banner -->
+      <section class="banner">
+        <div class="text">
+          <h2>Make Your First Order<br>and Get <span>50% Off</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nesciunt, error sequi, repudiandae ex at porro asperiores maiores vero rem suscipit earum dignissimos tenetur doloribus sed alias! Ab, nihil hic?.</p>
+          <button>Order Now</button>
+        </div>
+        <div class="pizza-wrapper"><img src="img/f0d0b09f92238aca7a81306ecf1176a683952430.png" alt="Pizza Offer" /></div>
+       
+      </section>
+
+      <!-- Menu Section -->
+      <section class="menu">
+        <div class="menu-header">
+          <h3>Our Menu</h3>
+          <div class="filters">
+            <button class="filter-btn">
+                <div class="icon-circle">
+                  <img src="img/1e06da40bd502a0fc893cd748c6e0bf1bb867b0f.png" alt="pizza" />
+                </div>
+                Pizza
+              </button>
+            <button class="filter-btn">
+                <div class="icon-circle">
+                  <img src="img/c3c3cf0b52872da6f29418536e5a2b79d08c550c.png" alt="Burger" />
+                </div>
+                Burger
+              </button>
+              <button class="filter-btn">
+                <div class="icon-circle">
+                  <img src="img/1f0d4ac50340aca2c901cfb8eea62d7e2b60584d.png" alt="Fries" />
+                </div>
+                Fries
+              </button>
+              
+              
+           
+              <button class="filter-btn">
+                <div class="icon-circle">
+                  <img src="img/d9cd65719a04f6c296ae9eb3baf050ac9b239b0b.png" alt="Pack" />
+                </div>
+                Pack
+              </button>
+              
+           
+          </div>
+          <h5>See All</h5>
+        </div>
+
+        <div class="menu-items">
+            <!-- كارت 1 -->
+            <div class="product-card horizontal-card">
+              <img src="img/e48bc9360a882b65f6c7d848c3671b1092f1f883.png" alt="Pizza">
+              <div class="product-details">
+                <h4>Pizza with Pepperoni</h4>
+                <p>14–20 minutes</p>
+                <span>$12</span>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          
+            <!-- كارت 2 -->
+            <div class="product-card horizontal-card">
+              <img src="img/8135bee9009473d88cd7bc0f306d327540a54932.png" alt="Pizza">
+              <div class="product-details">
+                <h4>Pizza with Cheese</h4>
+                <p>16–25 minutes</p>
+                <span>$14</span>
+                <button class="add-btn">+</button>
+              </div>
+            </div>
+          </div>
+       </main>   
+
+    <!-- Order Sidebar -->
+     
+    <aside class="order-sidebar">
+        <!-- User Info Header in Order Sidebar -->
+<div class="user-info-sidebar">
+    <div class="user-left">
+      <img src="img/fdb7ff7baf4338489fb8d6179850d7279522793c.jpg" alt="User Photo" />
+      <span>John Smith</span>
+    </div>
+    <i class="fa-solid fa-bell notification-icon"></i>
+  </div>
+  <div class="card-wrapper">
+    <div class="card-background"></div> <!-- الكارد الأسود -->
+      <div class="card">
+        <p>Universal Card</p>
+        <h3>5214 4587 9658 1452</h3>
+        <p>John Smith</p>
+        <p>12/24</p>
+      </div>
+</div>
+
+      
+<div class="order-list">
+    <div class="order-list-header">
+      <h4>Order Menu</h4>
+      <span class="see">See All</span>
+    </div>
+    <div class="order-card">
+        <div class="item">
+          <img src="img/8135bee9009473d88cd7bc0f306d327540a54932.png" />
+          <div>
+            <p>Pizza with Mushrooms</p>
+            <h6>8 insh</h6>
+      
+            <div class="price-row">
+              <span>$12</span>
+              <div class="quantity-control">
+                <button class="qty-btn">-</button>
+                <span class="qty">01</span>
+                <button class="qty-btn">+</button>
+              </div>
+            </div>
+      </div>
+          </div>
+        
+      </div>
+      
+  
+    <div class="order-card">
+      <div class="item">
+        <img src="img/47515dfdbeefb1a2c6c815392e9dd3fa7e04958d.png" />
+        <div>
+          <p>Meat with Potato</p>
+          <h6>Extra Tomato</h6>
+          <div class="price-row">
+            <span>$15</span>
+            <div class="quantity-control">
+              <button class="qty-btn">-</button>
+              <span class="qty">01</span>
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+  
+        <div class="total">
+          <p>Total Price</p>
+          <h3>$52.00</h3>
+        </div>
+        <button class="checkout-btn">Checkout</button>
+      </div>
+    </aside>
+
+  </div>
+
+</body>
+</html>
